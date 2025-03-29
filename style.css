@@ -1,0 +1,155 @@
+.bunner { 
+    background-image: url(/photo/bunner.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+
+}
+.header {
+    height: 50px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    margin-left: 470px;
+    gap: 70px;
+    color: white;
+    transition: all 400ms ease;
+}
+#t {
+    color: white;
+    transition: all 300ms ease;
+}
+#t:hover {
+    transition: all 300ms ease;
+    color: lightblue
+}
+.best {
+    background-image: url(/photo/second-bunner.jpg);
+    height: 100vh;
+    width: 100%;
+    color:white;
+
+
+#desc {
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+}
+.btn {
+    width: 100px;
+    height: 50px;
+    border-radius: 15px;
+    background-color:  white;
+    color: lightseagreen;
+    font-weight: 800;
+    transition: all 400ms ease;
+}
+.btn2 {
+    width: 100px;
+    height: 50px;
+    border-radius: 15px;
+    background-color:  white;
+    color: black;
+    font-weight: 800;
+    transition: all 400ms ease;
+    margin-top: 250px;
+}
+.btn2:hover {
+    width: 100px;
+    height: 50px;
+    border-radius: 15px;
+    background-color:  black;
+    color: white;
+    font-weight: 800;
+    transition: all 400ms ease;
+}
+.btn:hover {
+    background-color:  lightseagreen;
+    color: white;
+}
+.button-box{
+    margin-top: 30px;
+    margin-left: 600px;
+}
+#tir {
+    margin-top: 15px;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+.tir-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.join {
+    background-image: url(/photo/bunner3.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+.qr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.jt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* .personne {
+    display: flex;
+    align-items: end;
+    width: 15%;
+    height: 15%;
+}
+.pr {
+    width: 15%;
+    height: 15%;
+
+    margin-bottom: 300px;
+} */
+@media(max-width: 756px){
+    .header {
+       margin-left: 95px;
+       gap: 35px;
+    }
+    .bunner {
+        background-image: url(/photo/bunner1-mobile.jpg);
+        width: 736px;
+        height: 100vh;
+    }
+    .btn {
+        height: 50px;
+        width: 75px;
+       
+    }
+    .button-box {
+        margin-left: 250px;
+    }
+    #tir {
+        width: 400px;
+        height: 400px;
+        padding-top: 50px;
+    }
+    .desc {
+        font-weight: 100;
+        font-size: small;
+    }
+
+}
