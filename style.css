@@ -265,6 +265,9 @@ body {
   }
   .table-block {
     width: 100%;
-    
+
+  }
+  .tir-list2 {
+    display: none;
   }
 }
