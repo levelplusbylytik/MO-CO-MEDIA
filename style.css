@@ -1,8 +1,22 @@
+@font-face {
+  font-family: "mocoSans";
+  src: url("fonts/mocoSans-Regular.otf") format("opentype"),
+       url("fonts/mocoSans-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 html {
   scroll-behavior: smooth;
 }
 body {
   scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "mocoSans", sans-serif;
 }
 
 .bunner {
@@ -13,11 +27,7 @@ body {
   background-size: cover;
   display: flex;
 }
-* {
-  margin: 0;
-  padding: 0;
-  font-family: "Inter", sans-serif;
-}
+
 .main-container {
   max-width: 1440px;
   margin-left: auto;
@@ -216,7 +226,11 @@ body {
   border-radius: 4px;
 }
 .table-head, .table-block {
-
+}
+.mo-co-frame {
+  height: 200vh;
+  overflow: hidden;
+  
 }
 .table-head {
   display: flex;
