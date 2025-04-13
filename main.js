@@ -9,6 +9,12 @@ const best = document.querySelector(".best");
 const home = document.querySelector(".h");
 const best2 = document.querySelector(".b");
 const join2 = document.querySelector(".j");
+const dog = document.getElementById("dog");
+const sound = new Audio('/audios/so-hapy.mp3');
+dog.addEventListener("click", ()=>{
+  sound.play();
+  alert("Thank you for help !");
+;})
 
 btn2.addEventListener("click", () => {
   window.location.href =
