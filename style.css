@@ -27,11 +27,13 @@ body {
   border: none;
   padding: 0;
   margin: 0;
+  position: relative;
 }
 #dog {
   width: 50px;
-  margin-top: 485px;
-  margin-left: 1000px;
+  position: absolute;
+  left:calc(100vw - 200px);
+  top:calc(100vh - 200px);
 }
 
 #title-2 {
@@ -291,8 +293,8 @@ body {
     width: 100%;
   }
   #dog {
-    margin-top: 270px;
-    margin-left: 200px;
+     position: absolute;
+     left:calc(100vw - 100px);
   }
   .photo {
     width: 60px;
