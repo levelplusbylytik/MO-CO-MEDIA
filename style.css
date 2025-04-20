@@ -35,6 +35,14 @@ body {
   left:calc(100vw - 200px);
   top:calc(100vh - 200px);
 }
+section {
+  height: 100vh;
+}
+.button {
+  padding: 16px 10px;
+  border: 1px solid red;
+  display: block;
+}
 
 #title-2 {
   color: white;
