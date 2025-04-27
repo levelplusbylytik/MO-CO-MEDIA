@@ -33,8 +33,9 @@ body {
 #dog {
   width: 50px;
   position: absolute;
-  left:calc(100vw - 200px);
-  top:calc(100vh - 200px);
+  right: 200px;
+  bottom: 200px;
+  
 }
 section {
   height: 100vh;
@@ -215,7 +216,7 @@ section {
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: 90vh;
+    height: 100vh;
 }
 .quis-section h2 {
     color: white;
@@ -224,6 +225,8 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    gap: 25px;
 }
 #p2 {
     display: flex;
