@@ -11,6 +11,7 @@ html {
 }
 body {
   scroll-behavior: smooth;
+  background-color: #0b005a;
 }
 
 * {
@@ -67,7 +68,6 @@ section {
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
-  display: flex;
 }
 
 .main-container {
@@ -76,25 +76,32 @@ section {
   margin-right: auto;
 }
 
-.header {
-  height: 50px;
+.navigation {
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 70px;
-  color: white;
+  justify-content: end;
+  gap: 24px;
   transition: all 400ms ease;
+  padding: 32px 16px;
+  text-transform: uppercase;
+  list-style-type: none;
 }
-.header a {
+
+.navigation li a { 
   text-decoration: none;
   color: white;
-  font-size: 30px;
-  font-weight: 700;
-  transition: all 400ms ease;
+  text-underline-offset: 0.2em;
+  font-size: 20px;
+  line-height: 20px;
+  transition: color 400ms ease;
 }
-.header a:hover {
+
+
+.navigation li a:hover {
+  text-decoration: underline;
   color: lightblue;
 }
+
 #t {
   color: white;
   transition: all 300ms ease;
